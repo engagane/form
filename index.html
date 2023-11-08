@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styel.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="#">
+        <div class="user-detil">
+          <div class="input-box">
+            <span class="detil"> Full name</span>
+            <input type="text" placeholder="Your name" required />
+          </div>
+          <div class="input-box">
+            <span class="detil"> User name</span>
+            <input type="text" placeholder="user name" required />
+          </div>
+          <div class="input-box">
+            <span class="detil"> Email</span>
+            <input type="text" placeholder="email" required />
+          </div>
+          <div class="input-box">
+            <span class="detil"> Phone number</span>
+            <input type="text" placeholder="phone number" required />
+          </div>
+          <div class="input-box">
+            <span class="detil"> Password</span>
+            <input type="text" placeholder="Password" required />
+          </div>
+          <div class="input-box">
+            <span class="detil"> Confirm Password</span>
+            <input type="text" placeholder="confirm Password" required />
+          </div>
+        </div>
+        <div class="gender-detils">
+          <input type="radio" name="Gender" id="dot-1">
+          <input type="radio" name="Gender" id="dot-2">
+          <input type="radio" name="Gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="catogory">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Oders</span>
+            </label>
+          </div>
+        </div>
+        <div class="buttun">
+          <input type="submit" value="Registration">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
